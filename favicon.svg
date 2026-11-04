@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Decurix">
+  <!-- The topbar brand mark (theme.html's #i-blossom) on a filled tile, so it
+       still reads at 16px in a browser tab. Fills are set as attributes first
+       and only overridden by the stylesheet, so a renderer that ignores CSS
+       (and prefers-color-scheme) still gets the light palette. -->
+  <style>
+    .tile{fill:#136c4b}
+    .mark{fill:#ffffff}
+    @media (prefers-color-scheme:dark){
+      .tile{fill:#4fbd8b}
+      .mark{fill:#100f0e}
+    }
+  </style>
+  <rect class="tile" width="32" height="32" rx="7.5" fill="#136c4b"/>
+  <g class="mark" fill="#ffffff" transform="translate(16 16) scale(1.28) translate(-12 -12)">
+    <g opacity=".78">
+      <circle cx="12" cy="7.25" r="2.85"/>
+      <circle cx="16.52" cy="10.53" r="2.85"/>
+      <circle cx="14.79" cy="15.84" r="2.85"/>
+      <circle cx="9.21" cy="15.84" r="2.85"/>
+      <circle cx="7.48" cy="10.53" r="2.85"/>
+    </g>
+    <circle cx="12" cy="12" r="2.2"/>
+  </g>
+</svg>
