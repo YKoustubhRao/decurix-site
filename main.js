@@ -11,13 +11,13 @@ const DOWNLOADS = {
     url: "https://github.com/YKoustubhRao/decurix-site/releases/latest/download/Decurix-Setup-x64.exe",
     file: "Decurix-Setup-x64.exe",
     size: "151 MB",
-    sha256: "17888cf20f7a74b8a87d03ec773dda4fa144863376a4c2a127d8bfa261ec7f02",
+    sha256: "6e964a6f15a7544710cfbe67815b19389f7296e4d3d8d98bbf25b61aed1d4ceb",
   },
   linux: {
     url: "https://github.com/YKoustubhRao/decurix-site/releases/latest/download/Decurix-x86_64.AppImage",
     file: "Decurix-x86_64.AppImage",
     size: "153 MB",
-    sha256: "438dc3b0c1b4ee2223f2b42b7df879fdcdf682e0b85e5b874d7078e722066e06",
+    sha256: "3740ae9b017fa9abbc71275f483ff09ac7be73eca84ec8dd7eebbc4fbd74ea84",
   },
 };
 
