@@ -6,8 +6,13 @@
 // "https://github.com/YKoustubhRao/decurix-site/releases/latest/download/Decurix-Setup-x64.exe"
 // ---------------------------------------------------------------------------
 const DOWNLOADS = {
-  version: "",
-  windows: { url: "", file: "", size: "", sha256: "" },
+  version: "v0.1.0",
+  windows: {
+    url: "https://github.com/YKoustubhRao/decurix-site/releases/latest/download/Decurix-Setup-x64.exe",
+    file: "Decurix-Setup-x64.exe",
+    size: "151 MB",
+    sha256: "17888cf20f7a74b8a87d03ec773dda4fa144863376a4c2a127d8bfa261ec7f02",
+  },
   linux: { url: "", file: "", size: "", sha256: "" },
 };
 
