@@ -13,7 +13,12 @@ const DOWNLOADS = {
     size: "151 MB",
     sha256: "17888cf20f7a74b8a87d03ec773dda4fa144863376a4c2a127d8bfa261ec7f02",
   },
-  linux: { url: "", file: "", size: "", sha256: "" },
+  linux: {
+    url: "https://github.com/YKoustubhRao/decurix-site/releases/latest/download/Decurix-x86_64.AppImage",
+    file: "Decurix-x86_64.AppImage",
+    size: "153 MB",
+    sha256: "438dc3b0c1b4ee2223f2b42b7df879fdcdf682e0b85e5b874d7078e722066e06",
+  },
 };
 
 // ---------------------------------------------------------------------------
